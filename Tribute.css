@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial,sans-serif;
+	font-size: 100%;
+	background-color: orangered;
+	color: #fff;
+}
+
+.jumbotron{
+	max-width: 90%;
+	background-color:grey;
+	margin:1% auto;
+	border-radius: 10px;
+	padding:3% 0;
+}
+.container{
+	max-width: 90%;
+	margin: 0 auto 1.2em auto;
+}
+.container h3{
+	font-size: 1.6em;
+	text-align: center;
+	margin-bottom: .6em;
+}
+
+
+header h1{
+	font-size: 3.2em;
+}
+header .container{
+	text-align: center;
+	padding: 1em;
+}
+header .container img{
+	max-width: 100%;
+	border:2px solid white;
+}
+
+#about ul,
+#bman ul,
+#quotes ul,
+#talks ul{
+	max-width: 80%;
+	margin:1em auto;
+}
+
+#about li,
+#bman li,
+#quotes li,
+#talks li{
+	line-height: 1.5;
+	font-style: italic;
+	margin-bottom: .5em;
+}
+
+#quotes li,
+#talks li{
+	text-align: center;
+	list-style: none;
+}
+#talks li a{
+	text-decoration: none;
+	color: white;
+}
+footer{
+	text-align: center;
+}
+
+@media only screen and (max-width: 375px){
+	#header .container{
+		max-width: 98%;
+	}
+	p,li{
+		text-align: center;
+		list-style: none;
+	}
+	#about li,#bman li,#quotes li{
+		border-bottom: 1px solid darkgrey;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
